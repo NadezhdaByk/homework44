@@ -4,11 +4,12 @@ string num = Console.ReadLine();
 
 string Polindrom()
 {
-int [] array = new int [num.Length];
-for ( int i=0; i < num.Length; i++)
-    {
-      array [i] = int.Parse(num[i].ToString());
-    }
+//int [] array = new int [num.Length];
+char [] array = num.ToCharArray();
+// for (int i=0; i < num.Length; i++)
+//     {
+//       array [i] = int.Parse(num[i].ToString());
+//     }
 
 if (array[0] == array[4] & array[1] == array[3])
 {
